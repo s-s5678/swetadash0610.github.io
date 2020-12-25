@@ -4,48 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rotaract</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@500&display=swap" rel="stylesheet">
     
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/ee299b1b93.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.css">
+    
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="/public/css/styles.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <!-- scrpits -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <!-- <div class="fullscreen-image"></div> -->
-    <!-- <div class="nav-heading">
-        <h1>Rotaract</h1>
-    </div> -->
 
-    <nav class="navbar navbar-expand-lg navbar-default  navbar-fixed-top main-nav">
-        <div>
-            <a class="navbar-brand" href="#">
-                <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-                Rotaract
-              </a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-        </div>
-        
-        <div class="collapse navbar-collapse " id="navbarText">
-          <ul class="navbar-nav mr-auto ">
-              
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
-                  </li>
-              
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
-                  </li>
-            
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
-                  </li>
-          </ul>
-        </div>
+    <header>
+      <nav>
+         <div class="menu-icon">
+            <i class="fa fa-bars fa-2x"></i>
+         </div>
+         <a href="#">
+         <div class="logo">
+            ROTARACT
+         </div>
+        </a>
+         <div class="menu">
+            <ul>
+               <li><a href="#about">About</a></li>
+               <li><a href="#event">Our events</a></li>
+               <li><a href="#carouselExampleIndicators">Our work</a></li>
+               <li><a href="#team">Our team</a></li>
+               <li><a href="#contact">Contact</a></li>
+            </ul>
+         </div>
       </nav>
+   </header>
     
     <img class="main-landing-page-dots" src="/public/images/undraw_join_of2w.svg" alt="">
     <img class="main-landing-page-sun one" src="/public/images/sunflower.svg" alt="">
@@ -60,8 +59,337 @@
               </a>
         </h1>
     </div>
-    
+
+    <div class="container">
+    <!-- about us -->
+
+    <img class="main-landing-page-sun five" src="/public/images/sunflower.svg" alt="">
+    <img class="main-landing-page-sun six" src="/public/images/sunflower.svg" alt="">
+
+    <div class="about" id="about">
+      <h3 class="title">About Us</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros, 
+        pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus. 
+        Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex, 
+        in pretium orci vestibulum eget. Class aptent taciti sociosqu ad litora torquent
+        per conubia nostra, per inceptos himenaeos. Duis pharetra luctus lacus ut 
+        vestibulum. Maecenas ipsum lacus, lacinia quis posuere ut, pulvinar vitae dolor.
+        Integer eu nibh at nisi ullamcorper sagittis id vel leo. Integer feugiat 
+        faucibus libero, at maximus nisl suscipit posuere. Morbi nec enim nunc. 
+        Phasellus bibendum turpis ut ipsum egestas, sed sollicitudin elit convallis. 
+        Cras pharetra mi tristique sapien vestibulum lobortis. Nam eget bibendum metus, 
+      </p>
+
+    </div>
+
+    <!-- image gallery -->
+
+    <img class="main-landing-page-sun seven" src="/public/images/sunflower.svg" alt="">
+    <img class="main-landing-page-sun eight" src="/public/images/sunflower.svg" alt="">
+    <img class="main-landing-page-sun nine" src="/public/images/sunflower.svg" alt="">
+    <img class="main-landing-page-sun ten" src="/public/images/sunflower.svg" alt="">
+
+    <div class="img-container" id="event">
+      <h3 class="title">Our events</h3>
+      <a href="https://source.unsplash.com/600x600/?sig=1" data-lightbox="homePortfolio">
+        <img src="https://source.unsplash.com/600x600/?sig=1"/>
+      </a>
+      
+      <a href="https://source.unsplash.com/600x800/?sig=12" data-lightbox="homePortfolio" class="vertical">
+        <img src="https://source.unsplash.com/600x800/?sig=12"/>
+      </a>
+      
+      <a href="https://source.unsplash.com/800x600/?sig=71" data-lightbox="homePortfolio" class="horizontal">
+        <img src="https://source.unsplash.com/800x600/?sig=71"/>
+      </a>
+      
+      <a href="https://source.unsplash.com/600x600/?sig=40" data-lightbox="homePortfolio">
+        <img src="https://source.unsplash.com/600x600/?sig=40"/>
+      </a>
+      
+      <a href="https://source.unsplash.com/600x600/?sig=32" data-lightbox="homePortfolio">
+        <img src="https://source.unsplash.com/600x600/?sig=32"/>
+      </a>
+      
+      <a href="https://source.unsplash.com/800x800/?sig=7" data-lightbox="homePortfolio" class="big">
+        <img src="https://source.unsplash.com/800x800/?sig=7"/>
+      </a>
+      
+      <a href="https://source.unsplash.com/600x600/?sig=111" data-lightbox="homePortfolio">
+        <img src="https://source.unsplash.com/600x600/?sig=111"/>
+      </a>
+      
+      <a href="https://source.unsplash.com/600x800/?sig=94" data-lightbox="homePortfolio" class="vertical">
+        <img src="https://source.unsplash.com/600x800/?sig=94"/>
+      </a>
+      
+      <a href="https://source.unsplash.com/600x600/?sig=11" data-lightbox="homePortfolio">
+        <img src="https://source.unsplash.com/600x600/?sig=11"/>
+      </a>
+      
+      <a href="https://source.unsplash.com/800x600/?sig=68" data-lightbox="homePortfolio" class="horizontal">
+        <img src="https://source.unsplash.com/800x600/?sig=68"/>
+      </a>
+      
+      <a href="https://source.unsplash.com/600x600/?sig=24" data-lightbox="homePortfolio">
+        <img src="https://source.unsplash.com/600x600/?sig=24"/>
+      </a>
+      
+      <a href="https://source.unsplash.com/800x800/?sig=55" data-lightbox="homePortfolio" class="big">
+        <img src="https://source.unsplash.com/800x800/?sig=55"/>
+      </a>
+      
+      <a href="https://source.unsplash.com/600x600/?sig=56" data-lightbox="homePortfolio">
+        <img src="https://source.unsplash.com/600x600/?sig=56"/>
+      </a>
+      
+      <a href="https://source.unsplash.com/800x600/?sig=186" data-lightbox="homePortfolio" class="horizontal">
+        <img src="https://source.unsplash.com/800x600/?sig=186"/>
+      </a>
+      
+      <a href="https://source.unsplash.com/600x600/?sig=117" data-lightbox="homePortfolio">
+        <img src="https://source.unsplash.com/600x600/?sig=117"/>
+      </a>
+      
+      <a href="https://source.unsplash.com/800x800/?sig=157" data-lightbox="homePortfolio" class="big">
+        <img src="https://source.unsplash.com/800x800/?sig=157"/>
+      </a>
+      
+    </div>
+
+
+    <!-- carousel section -->
+
+    <img class="main-landing-page-sun eleven" src="/public/images/sunflower.svg" alt="">
+    <img class="main-landing-page-sun twelve" src="/public/images/sunflower.svg" alt="">
+
+    <div id="carouselExampleIndicators" class="autoplay carousel slide container" data-ride="carousel">
+
+      <div class="heading"> <h1 class="title">Our work</h1> </div>
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+
+      </ol>
+      <div class="carousel-inner" role="listbox">
+       
+        <div class="carousel-item active" style="background-image: url('https://portozante.com/images/uploads/photogallery/Luxury_Villa_Greece_-_Royal_Infinity_-_Porto_Zante_Luxury_Hotel_-_Zakynthos_-_Greece_1728px.jpg')">
+          <div class="overlay"></div>
+          <div class="carousel-caption d-md-block">
+            <h2 class="display-4">Dummy text</h2>
+            <p class="lead">People who like huge space inside and outside as well as garden; 
+              a luxury villa is a perfect choice. 
+              Villas are also good for families or group of friends.</p>
+          </div>
+        </div>
+        <div class="carousel-item " style="background-image: url('https://i.pinimg.com/originals/d7/1f/79/d71f79e1e76221f35f5911488aeb8f0c.jpg')">
+          <div class="overlay"></div>        
+          <div class="carousel-caption d-md-block">
+            <h2 class="display-4">Dummy text</h2>
+            <p class="lead">A classical minimalist style luxurious suite with high quality materials. 
+              Deluxe suites are recommended for people who like spacious accommodation. </p>
+          </div>
+        </div>
+        
+        <div class="carousel-item" style="background-image: url('https://d2e5ushqwiltxm.cloudfront.net/wp-content/uploads/sites/76/2016/11/13052542/Jr-Suite-with-Balconynew1.jpg')">
+          <div class="overlay"></div>
+          <div class="carousel-caption  d-md-block">
+            <h2 class="display-4">Dummy text</h2>
+            <p class="lead">Junior suites are perfect for travelers, 
+              who just like to taste the feeling of luxury hotel suites.</p>
+          </div>
+        </div>
+       
+        <div class="carousel-item" style="background-image: url('https://www.strandhotellimerick.ie/upload/slide_images/double-single-full-res.jpg')">
+          <div class="overlay"></div>
+          <div class="carousel-caption d-md-block">
+            <h2 class="display-4">Dummy text</h2>
+            <p class="lead">Family suitable rooms with separate beds and customized facilities, best suited for four.</p>
+          </div>
+        </div>
+        <div class="carousel-item" style="background-image: url('https://webbox.imgix.net/images/owvecfmxulwbfvxm/c56a0c0d-8454-431a-9b3e-f420c72e82e3.jpg?auto=format,compress&fit=crop&crop=entropy')">
+          <div class="overlay"></div>
+          <div class="carousel-caption d-md-block">
+            <h2 class="display-4">Dummy text</h2>
+            <p class="lead">Our comfortable single rooms are just the right size if you are travelling alone.</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+    </div>
+
+
+    <!-- teams section -->
+
+    <img class="main-landing-page-sun thirteen" src="/public/images/sunflower.svg" alt="">
+    <img class="main-landing-page-sun fourteen" src="/public/images/sunflower.svg" alt="">
+
+    <section id="team" class="section-team">
+      <div class="container">
+        <!-- Start Header Section -->
+        <div class="row justify-content-center text-center">
+          <div class="col-md-8 col-lg-6">
+            <div class="header-section">
+              <h2 class="title">Let's meet our team members</h2>
+            </div>
+          </div>
+        </div>
+        <!-- / End Header Section -->
+        <div class="row">
+          <!-- Start Single Person -->
+          <div class="col-sm-6 col-lg-4 col-xl-3">
+            <div class="single-person">
+              <div class="person-image">
+                <img src="https://i.ibb.co/G2CBWvb/person1.jpg" alt="">
+                <span class="icon">
+                  <i class="fab fa-html5"></i>
+                </span>
+              </div>
+              <div class="person-info">
+                <h3 class="full-name">John Doe</h3>
+                <span class="speciality">Dummy Text</span>
+              </div>
+            </div>
+          </div>
+          <!-- / End Single Person -->
+          <!-- Start Single Person -->
+          <div class="col-sm-6 col-lg-4 col-xl-3">
+            <div class="single-person">
+              <div class="person-image">
+                <img src="https://i.ibb.co/nbpNr4r/person2.jpg" alt="">
+                <span class="icon">
+                  <i class="fab fa-wordpress-simple"></i>
+                </span>
+              </div>
+              <div class="person-info">
+                <h3 class="full-name">Robert Smith</h3>
+                <span class="speciality">Dummy Text</span>
+              </div>
+            </div>
+          </div>
+          <!-- / End Single Person -->
+          <!-- Start Single Person -->
+          <div class="col-sm-6 col-lg-4 col-xl-3">
+            <div class="single-person">
+              <div class="person-image">
+                <img src="https://i.ibb.co/25zdRMr/person3.jpg" alt="">
+                <span class="icon">
+                  <i class="fab fa-angular"></i>
+                </span>
+              </div>
+              <div class="person-info">
+                <h3 class="full-name">John Doe</h3>
+                <span class="speciality">Dummy Text</span>
+              </div>
+            </div>
+          </div>
+          <!-- / End Single Person -->
+          <!-- Start Single Person -->
+          <div class="col-sm-6 col-lg-4 col-xl-3">
+            <div class="single-person">
+              <div class="person-image">
+                <img src="https://i.ibb.co/w0ynr2Q/person4.jpg" alt="">
+                <span class="icon">
+                  <i class="fab fa-js"></i>
+                </span>
+              </div>
+              <div class="person-info">
+                <h3 class="full-name">John Smith</h3>
+                <span class="speciality">Dummy Text</span>
+              </div>
+            </div>
+          </div>
+          <!-- / End Single Person -->
+        </div>
+      </div>
+    </section>
+
+    </div>
+  <!-- contact/footer -->
+    <footer id="contact" class="footer-section">
+      <div class="container">
+          <div class="footer-content pt-5 pb-5">
+              <div class="row">
+                  <div class="col-xl-4 col-lg-4 mb-50">
+                      <div class="footer-widget">
+                          <div class="footer-logo">
+                              <h3 class="title"> Rotaract</h3>
+                          </div>
+                          <div class="footer-text">
+                              <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                              elit,Lorem ipsum dolor sit amet.</p>
+                          </div>
+                          <div class="footer-social-icon">
+                              <span>Follow us</span>
+                              <a href="https://www.facebook.com/RotaractNITR/ " target="_blank"><i class="fab fa-facebook-f "></i></a>
+                              <a href="https://www.instagram.com/rotaractnitr/" target="_blank"><i class="fab fa-instagram"></i></a>
+                              <a href="https://github.com/RotaractNITR" target="_blank"><i class="fab fa-github"></i></a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                      <div class="footer-widget">
+                          <div class="footer-widget-heading">
+                              <h3>Useful Links</h3>
+                          </div>
+                          <ul>
+                              <li><a href="#">Home</a></li>
+                              <li><a href="#about">about</a></li>
+                              <li><a href="#event">Our event</a></li>
+                              <li><a href="#work">Our work</a></li>
+                              <li><a href="#team">Our team</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14770.903851521445!2d84.89629996190342!3d22.250473924430224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a201e791f2bf141%3A0xa91e5dbf75473588!2sNational%20Institute%20of%20Technology%2C%20Sector%201%2C%20Rourkela%2C%20Odisha!5e0!3m2!1sen!2sin!4v1608873071257!5m2!1sen!2sin" 
+                    width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="copyright-area">
+          <div class="container">
+              <div class="row">
+                  <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                      <div class="copyright-text">
+                          <p>Copyright &copy; 2021, All Right Reserved</p>
+                          <a href="https://github.com/swetadash0610" target="_blank"><p>Made by Sweta Dash</p></a>
+                      </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                      <div class="footer-menu">
+                          <ul>
+                              <li><a href="#">Home</a></li>
+                              <li><a href="#">Terms</a></li>
+                              <li><a href="#">Privacy</a></li>
+                              <li><a href="#">Policy</a></li>
+                              <li><a href="#">Contact</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+
+    <!-- scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="/public/js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    
 </body>
 </html>
